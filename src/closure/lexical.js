@@ -5,6 +5,7 @@ function myFunction() {
   console.log(myGlobal);
 
   function parent() {
+    //funcion interna
     const inner = 2;
     console.log(myNumber, myGlobal);
 
